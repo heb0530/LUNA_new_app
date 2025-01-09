@@ -1,6 +1,26 @@
 import streamlit as st
 
 st.title("🎈 My new app : LUNA")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+st.markdown("""
+```markdown
+# 소개
+
+## 저에 대해
+저는 **AI 개발자**로서, 인공지능 솔루션을 설계, 개발 및 배포하는 데 전문성을 갖추고 있습니다. 최신 기술을 활용하여 복잡한 문제를 해결하고 혁신을 촉진하는 데 중점을 두고 있습니다.
+
+## 기술
+- **프로그래밍 언어**: Python, JavaScript, C++ 등
+- **AI/ML 프레임워크**: TensorFlow, PyTorch, Scikit-learn
+- **데이터 과학**: 데이터 전처리, 시각화, 분석
+- **배포**: AWS, GCP, Azure와 같은 클라우드 플랫폼 경험
+- **협업**: 다양한 팀과 협력하며 AI를 통합 기술 생태계에 적용하는 데 능숙함
+
+## 관심사
+제가 열정을 가지고 있는 분야는:
+- **자연어 처리 (NLP)** 분야의 발전 탐구
+- 효율적이고 설명 가능한 AI 시스템 개발
+- 머신러닝 및 AI 윤리 분야의 최신 동향 파악
+
+AI 관련 주제로 협업하거나 대화하고 싶으시면 언제든지 연락주세요!
+```
+""")
